@@ -4,5 +4,5 @@ Directory:
 
 Activity Table > static & templates (folders), app.py (python file)
 
-static > Pictures/Banners
+static > Pictures/Banners,
 templates > index.html, login.html, edit.html
