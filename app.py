@@ -46,7 +46,7 @@ def index():
 
 @app.route('/data')
 def get_data():
-    file_path = r"C:\Users\Sanidhya.Mitra\Downloads\Book8.xlsx"
+    file_path = r"S:\GitHub\Activity_Table\Book8.xlsx"
     if not os.path.exists(file_path):
         return jsonify({'error': 'File not found'}), 404
 
@@ -63,7 +63,7 @@ def get_data():
 @login_required
 def update_data():
     data = request.json
-    file_path = r"C:\Users\Sanidhya.Mitra\Downloads\Book8.xlsx"
+    file_path = r"S:\GitHub\Activity_Table\Book8.xlsx"
     if not os.path.exists(file_path):
         return jsonify({'error': 'File not found'}), 404
     
